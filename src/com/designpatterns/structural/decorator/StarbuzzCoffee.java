@@ -5,7 +5,7 @@ import com.designpatterns.structural.decorator.Beverage.Size;
 public class StarbuzzCoffee {
 	public static void main(String args[]) {
 		Beverage beverage = new Espresso();
-		System.out.println(beverage.getDescription() + " $" + String.format("%.2f", beverage.cost()));
+		System.out.println(beverage.getDescription() + " $" + String.format("%.2f", beverage.cost())); 
 
 		Beverage beverage2 = new DarkRoast();
 		beverage2 = new Mocha(beverage2);
