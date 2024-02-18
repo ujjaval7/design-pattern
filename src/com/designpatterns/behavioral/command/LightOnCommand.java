@@ -1,4 +1,4 @@
-package com.designpatterns.creational.command;
+package com.designpatterns.behavioral.command;
 
 //Concrete Command 1
 public class LightOnCommand implements Command{

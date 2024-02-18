@@ -1,4 +1,4 @@
-package com.designpatterns.creational.command;
+package com.designpatterns.behavioral.command;
 
 //Reciever
 public class Light {
